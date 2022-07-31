@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game</title>
+    <link rel="icon" href="kat.ico">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <audio id="myAudio" src="leopold.mp3"  autoplay="allowed"></audio>
+    <audio id="myAudio2" src="be-happy_short.mp3"  autoplay="allowed"></audio>
+    <audio id="myAudio3" src="myau.mp3" loop="loop" autoplay="autoplay"></audio>
+
+    <div class="parent">
+        <div class="section2">
+            <div>
+                <h1 class="typing"></h1>
+            </div>  
+            <div class="container">
+                <h3 class="esli">Если в течение 30 секунд ты не угадаешь, какое число задумал этот котик, то он победит!</h3>
+                <p class="esli2"><b>Напиши число от 1 до 100</b></p>
+                <input class="input-number" type="text" placeholder="Введи число">
+                <a class="btn"><img class="play" src="play.png" alt="cat"> </a>
+            </div>
+        </div>
+        <div class="leo section1">
+            <img class="cat" src="kotiki-2.png" alt="">
+            <a id ="mybtn"><img class="stop" src="play.png" alt="#"> </a>
+        </div>
+    </div> 
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="script.js"></script>
+</body>
+</html>
